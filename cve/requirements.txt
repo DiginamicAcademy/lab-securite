@@ -1,0 +1,7 @@
+# Volontairement obsolète — support pédagogique du TD « exploiter / corriger une CVE ».
+# Jinja2 3.1.2 est affecté par CVE-2024-22195 : le filtre `xmlattr` accepte des clés
+# contenant des espaces, ce qui permet d'ajouter des attributs HTML (XSS).
+# Correctif du TD = monter Jinja2 (>= 3.1.3) et valider les clés côté applicatif.
+Flask==3.0.0
+Jinja2==3.1.2
+MarkupSafe==2.1.5
