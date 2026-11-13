@@ -29,8 +29,8 @@ Les cours [Fondamentaux de la cybersécurité](https://github.com/DiginamicAcade
 ## 2. Démarrage
 
 ```bash
-git clone https://github.com/DiginamicAcademy/lab-digicheese.git
-cd lab-digicheese
+git clone https://github.com/DiginamicAcademy/lab-securite.git
+cd lab-securite
 docker compose up --build -d
 docker compose ps
 ```
